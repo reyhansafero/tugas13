@@ -12,10 +12,7 @@ const Navbar: React.FC = () => {
         <div className="relative w-12 h-12">
           <Image src={Logo} alt="Logo"/>
         </div>
-        <ul className="flex">
-          <li className="mx-5"><a className="text-white hover:text-gray-300" href="/about">About</a></li>
-          <li className="mx-5"><a className="text-white hover:text-gray-300" href="/contact">Contact</a></li>
-        </ul>
+        
         <InboxNotifications count={unreadCount} />
       </div>
     </nav>
